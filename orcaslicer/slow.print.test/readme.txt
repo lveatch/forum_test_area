@@ -8,6 +8,7 @@
   - This will recalculate the feed rate between the layers you have choosen. If no stop command is found, it defaults to 8 layers
   - Speed will evenly increase for each layer between "start" and "stop" custom gcode comment lines
 7. Export and review your gcode before printing.
+  - Every line changed will be appended with a comment. " ; changed: [.....]"
 
 You can disable post-processing by either removing the post-processing script, or add -noprocess to the end of the command, or deleting the custom gcode
 **c:\slow.print.test.exe -noprocess;
